@@ -17,12 +17,13 @@ To install and run the tool, follow these steps:
 
 1. **Clone the Repository:**
 
-   ```bash
+    ```bash
    git clone https://github.com/zeroXyaser/Vscan.git
-
-   ```bash
+```bash
    cd Vscan
-   ```bash
+
+    ```bash
    python3 Vscan.py
-   ```bash
+
+```bash
    python3 scanner.py -u <target-url> -t <vulnerability-type> -d <dork> 
