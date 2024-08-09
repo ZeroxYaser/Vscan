@@ -4,26 +4,34 @@ A powerful tool designed for ethical hackers and cybersecurity professionals to 
 
 ## Features
 
-- **XSS Vulnerability Detection:** Scan websites for Cross-Site Scripting (XSS) vulnerabilities that allow attackers to inject malicious scripts.
-- **SQL Injection Detection:** Identify SQL Injection (SQLi) vulnerabilities to prevent unauthorized database access.
-- **File Path Traversal Detection:** Check for file path traversal vulnerabilities that expose restricted files or directories.
+- **XSS Vulnerability Detection:** Scans websites for Cross-Site Scripting (XSS) vulnerabilities that allow attackers to inject malicious scripts.
+- **SQL Injection Detection:** Identifies SQL Injection (SQLi) vulnerabilities to prevent unauthorized database access.
+- **File Path Traversal Detection:** Checks for file path traversal vulnerabilities that expose restricted files or directories.
 - **Custom URL Scanning:** Use the `-u` flag to scan specific URLs for targeted analysis.
 - **Select Vulnerability Type:** Use the `-t` flag to choose which vulnerability type to scan, such as XSS or SQLi.
 - **Dork-Based Site Discovery:** Use the `-d` flag to input dorks, discovering potential sites for vulnerability scans.
 
-## Installation
-
-To install and run the tool, follow these steps:
+## Installation and Usage
 
 1. **Clone the Repository:**
 
     ```bash
-   git clone https://github.com/zeroXyaser/Vscan.git
-```bash
-   cd Vscan
+    git clone https://github.com/zeroXyaser/Vscan.git
+    cd Vscan
+    ```
+
+2. **Install Dependencies and Run the Tool:**
 
     ```bash
-   python3 Vscan.py
+    python3 Vscan.py
+    ```
 
-```bash
-   python3 scanner.py -u <target-url> -t <vulnerability-type> -d <dork> 
+3. **Perform Scanning:**
+
+    Use the following command to start scanning:
+
+    ```bash
+    python3 scanner.py -u <target-url> -t <vulnerability-type> -d <dork>
+    ```
+
+    Replace `<target-url>` with the URL of the target website, `<vulnerability-type>` with the type of vulnerability you want to scan for (e.g., `xss` or `sql`), and `<dork>` with any dork queries you wish to use for site discovery.
