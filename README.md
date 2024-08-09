@@ -19,3 +19,7 @@ To install and run the tool, follow these steps:
 
    ```bash
    git clone https://github.com/zeroXyaser/Vscan.git
+   
+```bash
+   cd Web-Vulnerability-Scanner
+   ls
